@@ -1,0 +1,45 @@
+.navbar0 {
+  border-bottom: groove 1px #f8f8f8;
+  animation-duration: 2s;
+}
+
+.navbar0 .img1 {
+  animation-duration: 2s;
+  animation-iteration-count: infinite;
+}
+
+@media (max-width: 768px) {
+  .navbar0 .img1 {
+    display: none;
+  }
+}
+
+.navbar0 .rot {
+  border: solid 1px #f8f8f8;
+  margin: 0px 6px;
+  padding: 5px 0px;
+  border-radius: 20px;
+  text-decoration: none;
+  opacity: .7;
+}
+
+.navbar0 .rot:hover {
+  background-color: #f8f8f8;
+  opacity: 9.5;
+}
+
+.card {
+  background-color: transparent;
+}
+
+footer {
+  border-top: groove 1px #f8f8f8;
+}
+
+footer li {
+  list-style-type: none;
+}
+
+footer li a {
+  text-decoration: none;
+}

@@ -1,0 +1,47 @@
+$bord:20px;
+$mincolor:#f8f8f8;
+
+.navbar0 {
+  border-bottom: groove 1px $mincolor;
+  animation-duration: 2s;
+
+  .img1 {
+    @media (max-width:768px) {
+      display: none;
+
+    }
+
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+  }
+
+  .rot {
+    border: solid 1px $mincolor;
+    margin: 0px 6px;
+    padding: 5px 0px;
+    border-radius: $bord;
+    text-decoration: none;
+    opacity: .7;
+  }
+
+  .rot:hover {
+    background-color: $mincolor;
+    opacity: 9.5;
+  }
+}
+
+.card {
+  background-color: transparent;
+}
+
+footer {
+  border-top: groove 1px $mincolor;
+
+  li {
+    list-style-type: none;
+
+    a {
+      text-decoration: none;
+    }
+  }
+}
